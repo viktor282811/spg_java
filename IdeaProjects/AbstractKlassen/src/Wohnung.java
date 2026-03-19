@@ -1,7 +1,7 @@
 public class Wohnung extends Immobilie {
-    public boolean balkon;
-    public int nummer;
-    public int groesse;
+    private boolean balkon;
+    private int nummer;
+    private int groesse;
 
     public Wohnung(String adresse, int wert, boolean balkon, int nummer, int groesse) {
         super(adresse, wert);
